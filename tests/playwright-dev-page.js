@@ -8,7 +8,7 @@ exports.PlaywrightDevPage = class PlaywrightDevPage {
   constructor(page) {
     this.page = page;
     this.getStartedLink = page.locator('a', { hasText: 'Get started' });
-    this.gettingStartedHeader = page.locator('h1', { hasText: 'Installationn' });
+    this.gettingStartedHeader = page.locator('h1', { hasText: 'Installation' });
     this.pomLink = page.locator('li', {
       hasText: 'Guides',
     }).locator('a', {
